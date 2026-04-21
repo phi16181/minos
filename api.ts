@@ -1,4 +1,4 @@
-const API_URL = '/api/chat';  // was the full OpenAI URL
+const API_URL = '/api/chat'; // proxy via Azure Function
 const MODEL = 'gpt-4o';      // unchanged
 // remove the API_KEY line entirely — the function handles it
 
