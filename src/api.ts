@@ -1,6 +1,5 @@
-const API_URL = 'https://api.openai.com/v1/chat/completions';
-const MODEL = 'gpt-4o';
-const API_KEY = process.env.REACT_APP_OPENAI_API_KEY || '';
+const API_URL = '/api/chat';const MODEL = 'gpt-4o';
+
 
 export interface AnthropicMessage {
   role: 'user' | 'assistant';
